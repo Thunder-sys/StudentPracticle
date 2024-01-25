@@ -16,6 +16,13 @@
             android:name=".khushi.Mylist"
             android:exported="false" />
         <activity
+            android:name=".kunal.Kunal"
+            android:exported="false" />
+        <activity
+            android:name=".shakshi.MainActivity2"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

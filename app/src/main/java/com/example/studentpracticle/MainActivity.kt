@@ -4,9 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ListView
 import com.example.studentpracticle.khushi.Mylist
-import com.example.studentpracticle.kunal.kunal
+import com.example.studentpracticle.kunal.Kunal
 import com.example.studentpracticle.shakshi.MainActivity2
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(inte)
         }
         kuna.setOnClickListener(){
-            var inte=Intent(this,kunal::class.java)
+            var inte=Intent(this,Kunal::class.java)
             startActivity(inte)
         }
 
