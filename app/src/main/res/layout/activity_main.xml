@@ -11,7 +11,8 @@
         android:id="@+id/sendtokhu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:layout_weight="1"
+        android:text="list(A)"
         >
 
     </Button>
@@ -21,12 +22,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Button" />
+        android:text="list(B)" />
 
     <Button
         android:id="@+id/sendtokunal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Button" />
+        android:text="list(C)" />
 </LinearLayout>
