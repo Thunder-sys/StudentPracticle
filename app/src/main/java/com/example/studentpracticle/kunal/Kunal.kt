@@ -21,7 +21,8 @@ class Kunal : AppCompatActivity() {
         listview = findViewById(R.id.kunal_listview)
 
 
-        val array= arrayOf("Mon","Tue","Wed","Thur","Fri","Sat","Sun")
+        val array= arrayOf(2,3,4,5,7,12,5,123,6,3,6,7,8,2,2)
+
         val arrayAdapter:ArrayAdapter<*>
         arrayAdapter= ArrayAdapter(
             this,
@@ -30,12 +31,12 @@ class Kunal : AppCompatActivity() {
         )
         listview.adapter=arrayAdapter
         top3.setOnClickListener(){
-            val array3 = arrayOf("Mon","Tue","Wed")
+            array.filter { it>8 }
             val arrayAdapter3:ArrayAdapter<*>
             arrayAdapter3= ArrayAdapter(
                 this,
                 android.R.layout.simple_list_item_1,
-                array3
+                array
             )
             listview.adapter=arrayAdapter3
         }

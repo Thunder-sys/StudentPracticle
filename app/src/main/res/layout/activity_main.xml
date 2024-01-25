@@ -20,14 +20,14 @@
         android:id="@+id/sendtoshak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kunal"
+        android:text="Shakshi"
         android:textSize="35dp"/>
 
     <Button
         android:id="@+id/sendtokunal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Shakshi"
+        android:text="Kunal"
         android:textSize="35dp"/>
 
 
