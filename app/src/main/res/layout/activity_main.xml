@@ -11,21 +11,21 @@
         android:id="@+id/sendtokhu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Shakshi"
+        android:text="Khushi"
         android:textSize="35dp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sendtoshak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kunal"
         android:textSize="35dp"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/sendtokunal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Khushi"
+        android:text="Shakshi"
         android:textSize="35dp"/>
 
 
