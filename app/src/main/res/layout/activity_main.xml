@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="#FFD159"
+    android:backgroundTint="#F8CF51"
     tools:context=".MainActivity">
 
     <Button
