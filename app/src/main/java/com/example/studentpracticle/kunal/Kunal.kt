@@ -31,12 +31,12 @@ class Kunal : AppCompatActivity() {
         )
         listview.adapter=arrayAdapter
         top3.setOnClickListener(){
-            array.filter { it>8 }
+            var op = array.filter { it<8 }
             val arrayAdapter3:ArrayAdapter<*>
             arrayAdapter3= ArrayAdapter(
                 this,
                 android.R.layout.simple_list_item_1,
-                array
+                op
             )
             listview.adapter=arrayAdapter3
         }
