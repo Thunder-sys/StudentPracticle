@@ -26,7 +26,8 @@ class Kunal : AppCompatActivity() {
         val arrayAdapter:ArrayAdapter<*>
         arrayAdapter= ArrayAdapter(
             this,
-            android.R.layout.simple_list_item_1,
+            R.layout.kunal_textview,
+            R.id.kunal_textview,
             array
         )
         listview.adapter=arrayAdapter
@@ -35,7 +36,8 @@ class Kunal : AppCompatActivity() {
             val arrayAdapter3:ArrayAdapter<*>
             arrayAdapter3= ArrayAdapter(
                 this,
-                android.R.layout.simple_list_item_1,
+                R.layout.kunal_textview,
+                R.id.kunal_textview,
                 op
             )
             listview.adapter=arrayAdapter3
