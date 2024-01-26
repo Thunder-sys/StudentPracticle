@@ -16,6 +16,7 @@ class MainActivity2 : AppCompatActivity() {
         arrayAdapter= ArrayAdapter(
             this,
             R.layout.sakshitextview,
+            R.id.textView,
             lists
         )
         list.adapter=arrayAdapter
