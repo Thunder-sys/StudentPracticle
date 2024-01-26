@@ -15,7 +15,8 @@ class MainActivity2 : AppCompatActivity() {
         val arrayAdapter: ArrayAdapter<*>
         arrayAdapter= ArrayAdapter(
             this,
-            android.R.layout.simple_list_item_1,
+            R.layout.sakshitextview,
+            R.id.textView,
             lists
         )
         list.adapter=arrayAdapter
