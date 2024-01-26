@@ -17,7 +17,8 @@ class Mylist : AppCompatActivity() {
         var arrayAdapter:ArrayAdapter<*>
         arrayAdapter= ArrayAdapter(
             this,
-            android.R.layout.simple_list_item_1,
+            R.layout.khushiitem,
+            R.id.textView,
             mycitylist
         )
         mylist.adapter=arrayAdapter
