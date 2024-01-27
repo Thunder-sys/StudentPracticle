@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/kunal_image_itemlist"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ajay"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/kunal_imageName"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Ajay"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/kunal_imagefilm"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Vimal pan masala dane dane me kesar ka dam" />
+
+
+
+</LinearLayout>
