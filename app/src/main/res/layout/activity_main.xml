@@ -8,7 +8,7 @@
     android:layout_margin="10dp"
     android:background="#FFD159"
     android:backgroundTint="#F8CF51"
-    tools:context=".MainActivity">
+    tools:context=".Yash.MainActivity">
 
     <Button
         android:id="@+id/sendtokhu"

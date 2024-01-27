@@ -12,8 +12,12 @@ class Mylist : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mylist)
+
+
         var mylist= findViewById<ListView>(R.id.mylist)
+
         var mycitylist= arrayOf("AGRA","MATHURA","AYODHYA","VARANASI");
+        
         var arrayAdapter:ArrayAdapter<*>
         arrayAdapter= ArrayAdapter(
             this,

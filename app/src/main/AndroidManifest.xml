@@ -10,8 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.StudentPracticle"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".Yash.MyAdvancedList"
+            android:exported="false" />
         <activity
             android:name=".khushi.Mylist"
             android:exported="false" />
@@ -21,9 +24,8 @@
         <activity
             android:name=".shakshi.MainActivity2"
             android:exported="false" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".Yash.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
