@@ -38,13 +38,17 @@ class kunal_adapter(var activity:Activity,var kunalitem:ArrayList<kunal_modelcla
             viewHolder=view.tag as ViewHolder
         }
 
-        var kunalkaitem= kunalitem[position]
-        viewHolder.actorname
+        var kunalkeitem= kunalitem[position]
+        viewHolder.actorname?.text=kunalkeitem.kunalActressname
+        viewHolder.actorfilm?.text=kunalkeitem.kunalActressmovie
+        viewHolder.actorimag?.setImageResource(kunalkeitem.kunalimage)
 
+
+        return view as View
     }
     private class ViewHolder(row:View){
         var actorname = row.findViewById<TextView>(R.id.kunal_imageName)
         var actorfilm = row.findViewById<TextView>(R.id.kunal_imagefilm)
-        var actorimage = row.findViewById<ImageView>(R.id.kunal_image_itemlist)
+        var actorimag = row.findViewById<ImageView>(R.id.kunal_image_itemlist)
     }
 }
