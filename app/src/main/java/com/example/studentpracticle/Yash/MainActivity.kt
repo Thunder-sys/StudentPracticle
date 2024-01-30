@@ -6,8 +6,11 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.studentpracticle.R
 import com.example.studentpracticle.khushi.Mylist
+import com.example.studentpracticle.khushi.khushi.kadvance
 import com.example.studentpracticle.kunal.Kunal
+import com.example.studentpracticle.kunal.kunal_advance_list.kunal_advance_list
 import com.example.studentpracticle.shakshi.MainActivity2
+import com.example.studentpracticle.shakshi.advancelist.s_advancelist
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         var khu:Button=findViewById(R.id.sendtokhu)
         var shak:Button=findViewById(R.id.sendtoshak)
         var kuna:Button=findViewById(R.id.sendtokunal)
+        var khu2:Button=findViewById(R.id.sendtokhu2)
+        var shak2:Button=findViewById(R.id.sendtoshak2)
+        var kuna2:Button=findViewById(R.id.sendtokunal2)
 
         khu.setOnClickListener(){
             var inte=Intent(this,Mylist::class.java)
@@ -30,6 +36,18 @@ class MainActivity : AppCompatActivity() {
         }
         kuna.setOnClickListener(){
             var inte=Intent(this,Kunal::class.java)
+            startActivity(inte)
+        }
+        khu2.setOnClickListener(){
+            var inte=Intent(this,kadvance::class.java)
+            startActivity(inte)
+        }
+        shak2.setOnClickListener(){
+            var inte=Intent(this,s_advancelist::class.java)
+            startActivity(inte)
+        }
+        kuna2.setOnClickListener(){
+            var inte=Intent(this,kunal_advance_list::class.java)
             startActivity(inte)
         }
 
