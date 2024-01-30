@@ -39,6 +39,15 @@ class s_adapterclass(var activity:Activity,var sitem:ArrayList<sakshi_modelclass
             view=convertView
             viewHolder=view.tag as ViewHolder
         }
+        var sviewitem=sitem[position]
+        viewHolder.myactorname.text=sviewitem.s_actorname
+        viewHolder.myactormovie.text=sviewitem.s_actormovie
+        viewHolder.myactorima.setImageResource(sviewitem.s_actor)
+
+
+
+
+        return view as View
 
 
     }
