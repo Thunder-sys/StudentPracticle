@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_margin="10dp"
     android:background="#FFD159"
     android:backgroundTint="#F8CF51"
@@ -12,25 +12,48 @@
 
     <Button
         android:id="@+id/sendtokhu"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="list(A)"
+
+        android:text="Khushi Simple LIst"
         >
 
     </Button>
 
     <Button
         android:id="@+id/sendtoshak"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="list(B)" />
+
+        android:text="Shakshi Simple List" />
 
     <Button
         android:id="@+id/sendtokunal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="list(C)" />
+
+        android:text="Kunal Simple List" />
+    <Button
+        android:id="@+id/sendtokhu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Khushi Actor List"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/sendtoshak2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Shakshi Actor List" />
+
+    <Button
+        android:id="@+id/sendtokunal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Kunal Actor List" />
 </LinearLayout>
