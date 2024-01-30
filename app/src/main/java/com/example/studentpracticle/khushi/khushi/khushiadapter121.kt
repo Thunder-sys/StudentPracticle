@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView.LAYER_TYPE_HARDWARE
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.studentpracticle.R
 
-class khushiadapter121(var acti: Activity, var myitems:ArrayList< khushimodel>):BaseAdapter() {
+class  khushiadapter121(var acti: Activity, var myitems:ArrayList< khushimodel>):BaseAdapter() {
     override fun getCount(): Int {
       return myitems.size
     }
@@ -33,7 +33,7 @@ class khushiadapter121(var acti: Activity, var myitems:ArrayList< khushimodel>):
             viewHolder=ViewHolder(view)
             view?.tag=viewHolder
         }else{
-           View=convertView
+           view=convertView
             viewHolder=view.tag as ViewHolder
         }
 
