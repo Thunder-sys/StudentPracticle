@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.LAYER_TYPE_HARDWARE
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
@@ -36,12 +37,17 @@ class  khushiadapter121(var acti: Activity, var myitems:ArrayList< khushimodel>)
            view=convertView
             viewHolder=view.tag as ViewHolder
         }
+        var myview=myitems[position]
+        viewHolder.myactorname.text=myview.meactressname
+        viewHolder.myactormovie.text=myview.meactormovei
+        viewHolder.myactorimage.setImageResource(myview.meactor)
+        return view as View
 
     }
     private class ViewHolder(row:View){
         var myactorname=row.findViewById<TextView>(R.id.kd1)
         var myactormovie=row.findViewById<TextView>(R.id.kd2)
-        var myactorimage=row.findViewById<TextView>(R.id.kd)
+        var myactorimage=row.findViewById<ImageView>(R.id.kd)
     }
 
 }
