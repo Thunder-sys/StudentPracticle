@@ -23,7 +23,7 @@
         android:text="DIVYA" />
 
     <TextView
-        android:id="@+id/divyam"
+        android:id="@+id/janedo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
