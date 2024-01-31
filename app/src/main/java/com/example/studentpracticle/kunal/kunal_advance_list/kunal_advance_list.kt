@@ -20,11 +20,11 @@ class kunal_advance_list : AppCompatActivity() {
         var kunaldatalist = ArrayList<kunal_modelclass>()
         var myact1 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
         var myact2 = kunal_modelclass("Ajay","Vimal pan masala dane dane me kesar ka dam",R.drawable.ajay)
-        var myact3 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
-        var myact4 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
-        var myact5 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
-        var myact6 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
-        var myact7 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
+        var myact3 = kunal_modelclass("Divya","Deewana", R.drawable.divya)
+        var myact4 = kunal_modelclass("Haritki","Heart Attack", R.drawable.hritki)
+        var myact5 = kunal_modelclass("Kirati","Snug Fu", R.drawable.kriti)
+        var myact6 = kunal_modelclass("Rao","Badhaai Do", R.drawable.rao)
+        var myact7 = kunal_modelclass("Sidaharth","Oy", R.drawable.siddharth)
 
         kunaldatalist.add(myact1)
         kunaldatalist.add(myact2)
@@ -35,6 +35,6 @@ class kunal_advance_list : AppCompatActivity() {
         kunaldatalist.add(myact7)
 
 
-        return getkunaldata()
+        return kunaldatalist
     }
 }
