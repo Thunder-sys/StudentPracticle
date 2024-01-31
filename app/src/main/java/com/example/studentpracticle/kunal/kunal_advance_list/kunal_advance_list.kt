@@ -35,6 +35,6 @@ class kunal_advance_list : AppCompatActivity() {
         kunaldatalist.add(myact7)
 
 
-        return getkunaldata()
+        return kunaldatalist
     }
 }
