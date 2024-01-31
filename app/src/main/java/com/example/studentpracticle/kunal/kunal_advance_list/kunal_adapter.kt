@@ -39,11 +39,9 @@ class kunal_adapter(var activity:Activity,var kunalitem:ArrayList<kunal_modelcla
         }
 
         var kunalkeitem= kunalitem[position]
-        viewHolder.actorname?.text=kunalkeitem.kunalActressname
-        viewHolder.actorfilm?.text=kunalkeitem.kunalActressmovie
-        viewHolder.actorimag?.setImageResource(kunalkeitem.kunalimage)
-
-
+        viewHolder.actorname.text=kunalkeitem.kunalActressname
+        viewHolder.actorfilm.text=kunalkeitem.kunalActressmovie
+        viewHolder.actorimag.setImageResource(kunalkeitem.kunalimage)
         return view as View
     }
     private class ViewHolder(row:View){

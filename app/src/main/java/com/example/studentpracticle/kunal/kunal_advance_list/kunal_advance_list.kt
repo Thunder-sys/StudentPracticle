@@ -19,7 +19,7 @@ class kunal_advance_list : AppCompatActivity() {
     private fun getkunaldata(): ArrayList<kunal_modelclass> {
         var kunaldatalist = ArrayList<kunal_modelclass>()
         var myact1 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
-        var myact2 = kunal_modelclass("Ajay",        "Vimal pan masala dane dane me kesar ka dam",R.drawable.ajay)
+        var myact2 = kunal_modelclass("Ajay","Vimal pan masala dane dane me kesar ka dam",R.drawable.ajay)
         var myact3 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
         var myact4 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
         var myact5 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
