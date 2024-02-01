@@ -19,7 +19,7 @@
         android:textStyle="bold|italic"
         android:textSize="34dp"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="DIVYA" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="24dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
 
         android:text="jane_do" />
 </LinearLayout>
