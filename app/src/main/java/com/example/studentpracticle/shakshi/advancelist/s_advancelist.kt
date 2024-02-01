@@ -26,7 +26,7 @@ class s_advancelist : AppCompatActivity() {
         var actor3=sakshi_modelclass("Divya","Entertainment",R.drawable.divya)
         var actor4=sakshi_modelclass("Ritik roshan","Krish 3",R.drawable.hritki)
         var actor5=sakshi_modelclass("Kriti senan","Entertainment",R.drawable.kriti)
-        var actor6=sakshi_modelclass("Rao","Entertainment",R.drawable.rao)
+        var actor6=sakshi_modelclass("Rao","Shadi me jarur aana",R.drawable.rao)
         var actor7=sakshi_modelclass("Sidharath malhotra","Entertainment",R.drawable.siddharth)
         var actor8=sakshi_modelclass("Tanvi","Entertainment",R.drawable.tanvi)
 
