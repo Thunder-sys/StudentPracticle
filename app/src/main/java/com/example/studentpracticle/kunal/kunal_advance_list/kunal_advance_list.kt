@@ -9,9 +9,7 @@ class kunal_advance_list : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kunal_advance_list)
-
         var kunallist = findViewById<ListView>(R.id.kunal_listview1)
-
         var kunallistdata = kunal_adapter(this,getkunaldata())
         kunallist.adapter=kunallistdata
     }
