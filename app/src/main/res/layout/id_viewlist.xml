@@ -16,41 +16,44 @@
         android:layout_width="match_parent"
         android:layout_height="121dp"
         android:layout_weight="1"
-
         android:layout_gravity="center"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="0dp"
-            android:textAlignment="center"
-
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Name: Akshya kumar" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Father name: jai kumar" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Roll no: 20" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/text4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Sec: A" />
+
+
     </LinearLayout>
 </LinearLayout>
