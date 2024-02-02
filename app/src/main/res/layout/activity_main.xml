@@ -14,46 +14,39 @@
         android:id="@+id/sendtokhu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:text="Khushi Simple LIst"
-        >
-
-    </Button>
+        android:text="Khushi Simple LIst"/>
 
     <Button
         android:id="@+id/sendtoshak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Shakshi Simple List" />
 
     <Button
         android:id="@+id/sendtokunal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Kunal Simple List" />
     <Button
         android:id="@+id/sendtokhu2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:text="Khushi Actor List"
-        >
-
-    </Button>
+        android:text="Khushi Actor List"/>
 
     <Button
         android:id="@+id/sendtoshak2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Shakshi Actor List" />
 
     <Button
         android:id="@+id/sendtokunal2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Kunal Actor List" />
+    <Button
+        android:id="@+id/sendtokunal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kunal student List" />
 </LinearLayout>

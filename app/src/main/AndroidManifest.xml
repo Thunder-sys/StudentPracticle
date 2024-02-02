@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentPracticle"
         tools:targetApi="31">
+
+        <activity
+            android:name=".khushi.khushi.khushi.id.id.khushi_id_activity"
+            android:exported="false" />
         <activity
             android:name=".shakshi.s_idcardlist.s_idmainactivity"
             android:exported="false" />
@@ -24,6 +28,9 @@
         <activity
             android:name=".kunal.Kunal"
             android:exported="false" />
+        <activity
+        android:name=".kunal.studentlist.kunal_student_advence_list"
+        android:exported="false" />
         <activity
             android:name=".kunal.kunal_advance_list.kunal_advance_list"
             android:exported="false" />

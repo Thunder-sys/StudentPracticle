@@ -9,13 +9,10 @@ class kunal_advance_list : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kunal_advance_list)
-
         var kunallist = findViewById<ListView>(R.id.kunal_listview1)
-
         var kunallistdata = kunal_adapter(this,getkunaldata())
         kunallist.adapter=kunallistdata
     }
-
     private fun getkunaldata(): ArrayList<kunal_modelclass> {
         var kunaldatalist = ArrayList<kunal_modelclass>()
         var myact1 = kunal_modelclass("Akshya Kumar","Khiladi 786",R.drawable.akshay)
@@ -33,7 +30,6 @@ class kunal_advance_list : AppCompatActivity() {
         kunaldatalist.add(myact5)
         kunaldatalist.add(myact6)
         kunaldatalist.add(myact7)
-
 
         return kunaldatalist
     }
