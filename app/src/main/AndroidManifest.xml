@@ -17,6 +17,9 @@
             android:name=".khushi.khushi.khushi.id.id.khushi_id_activity"
             android:exported="false" />
         <activity
+            android:name=".shakshi.s_idcardlist.s_idmainactivity"
+            android:exported="false" />
+        <activity
             android:name=".khushi.Mylist"
             android:exported="false" />
         <activity
