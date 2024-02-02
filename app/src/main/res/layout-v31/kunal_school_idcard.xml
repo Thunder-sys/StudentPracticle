@@ -7,6 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_margin="10dp"
+        android:background="@android:color/system_neutral1_300"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
 
@@ -16,6 +17,7 @@
 
             <ImageView
                 android:layout_width="124dp"
+                android:id="@+id/kunal_student_image"
                 android:layout_height="228dp"
                 android:src="@drawable/ajay" />
         </LinearLayout>
@@ -27,19 +29,71 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
                     android:textSize="20dp"
-                    android:text="Name :"
+                    android:text="Name : "
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/kunal_student_name"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Kunal"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="20dp"
+                    android:text="Father Name : "
                     android:layout_height="wrap_content"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/kunal_student_fathername"
+                    android:text="Kunal"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="20dp"
+                    android:text="Roll No. : "
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/kunal_student_rollnumber"
                     android:text="Kunal"
                     android:layout_height="wrap_content"/>
 
@@ -53,69 +107,16 @@
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:textSize="20dp"
-                    android:text="Father Name  :"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:text="Section : "
                     android:layout_height="wrap_content"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:textSize="20dp"
-                    android:text="Kunal"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginTop="15dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text="Class :"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textSize="20dp"
-                    android:text="Kunal"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginTop="15dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text="Roll No. :"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textSize="20dp"
-                    android:text="Kunal"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginTop="15dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text="Section :"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/kunal_student_section"
                     android:text="Kunal"
                     android:layout_height="wrap_content"/>
 
