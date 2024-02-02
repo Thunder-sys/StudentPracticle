@@ -40,6 +40,7 @@
         <activity
             android:name=".shakshi.advancelist.s_advancelist"
             android:exported="false" />
+
         <activity
             android:name=".Yash.MainActivity"
             android:exported="true">

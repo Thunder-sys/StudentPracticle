@@ -12,6 +12,7 @@ import com.example.studentpracticle.kunal.kunal_advance_list.kunal_advance_list
 import com.example.studentpracticle.kunal.studentlist.kunal_student_advence_list
 import com.example.studentpracticle.shakshi.MainActivity2
 import com.example.studentpracticle.shakshi.advancelist.s_advancelist
+import com.example.studentpracticle.shakshi.s_idcardlist.s_idmainactivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(inte)
         }
         shak2.setOnClickListener(){
-            var inte=Intent(this,s_advancelist::class.java)
+            var inte=Intent(this,s_idmainactivity::class.java)
             startActivity(inte)
         }
         kuna2.setOnClickListener(){
