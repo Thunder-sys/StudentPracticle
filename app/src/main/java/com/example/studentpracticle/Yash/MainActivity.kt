@@ -9,6 +9,7 @@ import com.example.studentpracticle.khushi.Mylist
 import com.example.studentpracticle.khushi.khushi.kadvance
 import com.example.studentpracticle.kunal.Kunal
 import com.example.studentpracticle.kunal.kunal_advance_list.kunal_advance_list
+import com.example.studentpracticle.kunal.studentlist.kunal_student_advence_list
 import com.example.studentpracticle.shakshi.MainActivity2
 import com.example.studentpracticle.shakshi.advancelist.s_advancelist
 
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         var khu2:Button=findViewById(R.id.sendtokhu2)
         var shak2:Button=findViewById(R.id.sendtoshak2)
         var kuna2:Button=findViewById(R.id.sendtokunal2)
+        var kuna3:Button=findViewById(R.id.sendtokunal3)
 
         khu.setOnClickListener(){
             var inte=Intent(this,Mylist::class.java)
@@ -48,6 +50,10 @@ class MainActivity : AppCompatActivity() {
         }
         kuna2.setOnClickListener(){
             var inte=Intent(this,kunal_advance_list::class.java)
+            startActivity(inte)
+        }
+        kuna3.setOnClickListener(){
+            var inte=Intent(this,kunal_student_advence_list::class.java)
             startActivity(inte)
         }
 
