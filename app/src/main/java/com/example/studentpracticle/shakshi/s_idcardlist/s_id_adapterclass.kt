@@ -13,15 +13,15 @@ import com.example.studentpracticle.R
 
 class s_id_adapterclass(var acti : Activity, var s_id_item:ArrayList<s_id_modelclass>):BaseAdapter() {
     override fun getCount(): Int {
-        TODO("Not yet implemented")
+      return s_id_item.size
     }
 
     override fun getItem(position: Int): Any {
-        TODO("Not yet implemented")
+       return s_id_item[position]
     }
 
     override fun getItemId(position: Int): Long {
-        TODO("Not yet implemented")
+        return position.toLong()
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
