@@ -52,7 +52,7 @@ class s_id_adapterclass(var acti : Activity, var s_id_item:ArrayList<s_id_modelc
 
     private class ViewHolder(row:View){
         var idactname=row.findViewById<TextView>(R.id.name)
-        var idactfather=row.findViewById<TextView>(R.id.father)
+        var idactfather=row.findViewById<TextView>(R.id.sfather)
         var idactsec=row.findViewById<TextView>(R.id.section)
         var idactroll=row.findViewById<TextView>(R.id.roll)
         var idactimag=row.findViewById<ImageView>(R.id.imagkriti)

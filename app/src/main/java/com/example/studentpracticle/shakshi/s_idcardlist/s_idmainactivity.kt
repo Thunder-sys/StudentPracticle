@@ -27,12 +27,19 @@ class s_idmainactivity : AppCompatActivity() {
         var id3=s_id_modelclass("Tanvi","yash","A",R.drawable.tanvi,"122")
         var id4=s_id_modelclass("Sidharath","yash","A",R.drawable.siddharth,"122")
         var id5=s_id_modelclass("Rao","yash","A",R.drawable.rao,"122")
+        var id6=s_id_modelclass("Ajay","yash","A",R.drawable.ajay,"122")
+        var id7=s_id_modelclass("Hritik","yash","A",R.drawable.hritki,"122")
+        var id8=s_id_modelclass("Akshay","yash","A",R.drawable.akshay,"122")
+
 
         idlist.add(id1)
         idlist.add(id2)
         idlist.add(id3)
         idlist.add(id4)
         idlist.add(id5)
+        idlist.add(id6)
+        idlist.add(id7)
+        idlist.add(id8)
 
         return idlist
 

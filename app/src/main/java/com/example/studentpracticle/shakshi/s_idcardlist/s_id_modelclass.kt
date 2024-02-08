@@ -8,7 +8,7 @@ class s_id_modelclass {
     var id_actimag:Int=0
     var id_actroll:String=""
 
-    constructor(id_actname:String,id_actfaname:String,id_sec:String,id_actimag:Int,id_actroll:String){
+    constructor(id_actname:String,id_actfanamme:String,id_sec:String,id_actimag:Int,id_actroll:String){
         this.id_actname = id_actname
         this.id_actfanamme = id_actfanamme
         this.id_sec = id_sec

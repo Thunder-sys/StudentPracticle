@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical">
 
     <LinearLayout
@@ -21,32 +20,35 @@
 
             <ImageView
                 android:id="@+id/imagkriti"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
                 android:background="@drawable/kriti"/>
 
             <LinearLayout
-                android:layout_width="400dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/name"
-                    android:layout_width="286dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Name :"
+                    android:layout_weight="1"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/father"
+                    android:id="@+id/sfather"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:textStyle="bold"
+                    android:layout_weight="1"
                     android:text="Father name:"
 
                     />
@@ -57,6 +59,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:textStyle="bold"
+                    android:layout_weight="1"
                     android:text="Roll num:" />
 
                 <TextView
@@ -64,13 +67,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
+                    android:layout_weight="1"
                     android:textStyle="bold"
                     android:text="Sec:" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"/>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
