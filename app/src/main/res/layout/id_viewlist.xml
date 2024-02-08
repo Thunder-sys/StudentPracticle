@@ -41,9 +41,9 @@
             android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Roll no: 20"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="Roll no: 20" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text4"
